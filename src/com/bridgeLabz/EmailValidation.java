@@ -11,9 +11,9 @@ public class EmailValidation {
 		EmailValidation check = new EmailValidation();
 
 		String email = "abc.xyz@gmail.com";
-        String email1 = "abc____100z@google.com";
-        String email2 = "1abc@bridge-lab.com";
-        String email3 = "_abc@bridgelab.com";
+                String email1 = "abc____100z@google.com";
+                String email2 = "1abc@bridge-lab.com";
+                String email3 = "_abc@bridgelab.com";
 		check.validateEmail(email);
 		check.validateEmail(email1);
 		check.validateEmail(email2);
